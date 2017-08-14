@@ -1,0 +1,64 @@
+*{
+    outline: 1px solid red;
+}
+body { background-color: black; }
+ul{
+    background-color: red;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color: greenyellow;
+}
+span{
+    color: red;
+    margin: 0 100px;
+}
+.animal{
+width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.box1{
+    display: inline-block;
+    color: black;
+    background-color: crimson;
+    padding: 20px;
+    margin: 0px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    left: 10px;
+    
+}
+.box2{
+    display: inline-block;
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+    margin: 0px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+.box3{
+    display: inline-block;
+    color: black;
+    background-color: crimson;
+    padding: 20px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.tex1{
+    color: whitesmoke;
+}
+.tex2{
+    color: whitesmoke;
+}
