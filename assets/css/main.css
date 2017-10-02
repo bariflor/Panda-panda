@@ -1,7 +1,12 @@
 *{
-    outline: 1px solid red;
+/*    outline: 1px solid red;
+*/}
+body { 
+    background-color: black; 
+    background-image: url(https://thumbs.dreamstime.com/z/perspective-wood-table-yellow-flower-over-nature-background-empty-space-beautiful-abstract-bokeh-70503439.jpg);
+    padding: 0px;
+    margin: 0;
 }
-body { background-color: black; }
 ul{
     background-color: red;
 }
@@ -28,37 +33,39 @@ width: 250px;
     margin: 10px;
 }
 .box1{
-    display: inline-block;
+    display: inline;
     color: black;
-    background-color: crimson;
+    background-color: red;
     padding: 20px;
     margin: 0px;
+    width: 200px;
     text-transform: capitalize;
     font-weight: bolder;
     left: 10px;
     
 }
 .box2{
-    display: inline-block;
+    width: 200px;
+    display: inline;
     color: black;
-    background-color: yellow;
+    background-color: red;
     padding: 20px;
     margin: 0px;
     text-transform: lowercase;
     font-weight: bolder;
 }
 .box3{
-    display: inline-block;
+    width: 200px;
+    display: inline;
     color: black;
-    background-color: crimson;
+    background-color: red;
     padding: 20px;
     margin: 0px;
     text-transform: uppercase;
     font-weight: bolder;
 }
-.tex1{
+.tex1, .tex2{
     color: whitesmoke;
+    font-size: 20px;
 }
-.tex2{
-    color: whitesmoke;
-}
+.addClass("animated Fade Out");
