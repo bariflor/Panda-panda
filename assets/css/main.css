@@ -55,6 +55,10 @@ hr {
 #section-card" {
 	background: white;
 }
+p{
+	position: relative;
+	left: 100px;
+}
 .card {
 	margin: 5px;
 	position: relative;
