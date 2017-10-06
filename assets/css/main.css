@@ -33,6 +33,9 @@ nav {
 	background: cover;
 	height: 700px;
 }
+.icono:hover{
+	transform: rotate(45deg) skew(45deg) traslatex(50px) scale(1.5);
+}
 #div-plomo {
 	position: relative;
 	top: 200px;
