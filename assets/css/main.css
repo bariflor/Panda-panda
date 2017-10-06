@@ -1,71 +1,75 @@
 *{
-/*    outline: 1px solid red;
+/*	outline: 1px solid red;
 */}
-body { 
-    background-color: black; 
-    background-image: url(https://thumbs.dreamstime.com/z/perspective-wood-table-yellow-flower-over-nature-background-empty-space-beautiful-abstract-bokeh-70503439.jpg);
-    padding: 0px;
-    margin: 0;
+body {
+/*	background-image: url(https://image.freepik.com/foto-gratis/tablero-de-madera-tabla-vacia-de-fondo-borrosa-perspectiva-mesa-de-madera-marron-sobre-los-arboles-de-desenfoque-forestales-de-fondo-se-puede-utilizar-simulacro-para-la-visualizacion-o-el-montaje-de-sus-productos-temporada-de-primavera-bandera-panoramica_1253-803.jpg) /*no-repeat fixed center*/;
+*/	background-size: 100%;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #222326;  	
+	height: 100%;
+/*	overflow: hidden;
+*/}
+nav {
+	background: black;
+/*	background-image: url(https://image.freepik.com/vector-gratis/fondo-floral-moderno_1035-2545.jpg);	
+*/    position: fixed;
+    height: 100px;
 }
-ul{
-    background-color: red;
+#header-panda {
+	position: relative;
+	left: 50px;
 }
-li{
-    display: inline-block;
-    padding: 20px;
-    list-style: none;
+#derecha {
+	position: relative;
+	left: 750px;
+	font-size: 20px;
 }
-a{
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 10px;
+#fondo-panda{
+	background: url(https://cdn.thinglink.me/api/image/718665985896218624/1240/10/scaletowidth);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background: cover;
+	height: 700px;
 }
-a:hover{
-    color: greenyellow;
+#div-plomo {
+	position: relative;
+	top: 200px;
+	color: white;
+	height: 500px;
 }
-span{
-    color: red;
-    margin: 0 100px;
+h1 {
+		font-size: 40px;
+
 }
-.animal{
-width: 250px;
+hr {
+	border: 3px solid black;
+	width: 400px;
+	position: relative;
+	right: 100px;
+}
+#section-card" {
+	background: white;
+}
+.card {
+	margin: 5px;
+	position: relative;
+/*	top: 50px;
+*/
+}
+.pandas{
+    width: 250px;
     height: 250px;
-    margin: 10px;
-}
-.box1{
-    display: inline;
-    color: black;
-    background-color: red;
-    padding: 20px;
     margin: 0px;
-    width: 200px;
-    text-transform: capitalize;
-    font-weight: bolder;
-    left: 10px;
-    
 }
-.box2{
-    width: 200px;
-    display: inline;
-    color: black;
-    background-color: red;
-    padding: 20px;
-    margin: 0px;
-    text-transform: lowercase;
-    font-weight: bolder;
-}
-.box3{
-    width: 200px;
-    display: inline;
-    color: black;
-    background-color: red;
-    padding: 20px;
-    margin: 0px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-.tex1, .tex2{
-    color: whitesmoke;
-    font-size: 20px;
-}
-.addClass("animated Fade Out");
+footer {
+  background-color: rgb(51,51,51);
+  color: white;
+  height: 60px;
+ }
+ footer p {
+  text-align: center;
+  position: relative;
+  top: 15px;
+ }
